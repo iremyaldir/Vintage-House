@@ -1,0 +1,97 @@
+﻿@*@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+
+ <form class="row row-cols-lg-auto g-3 align-items-center white">
+      <div class="col-12">
+        <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+        <div class="input-group">
+        
+         <input type="text" class="form-control-primary" value="@Model.search" id="search" name="search" placeholder="Search...">*@
+      @*@</div>
+      </div>
+
+ 
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">OK</button>
+        <a href"/Home/Index" class="btn btn-primary">Clean</a>
+      </div>
+</form>
+
+<ul class="navbar-nav">
+    <li class="nav-item">
+        <a class="nav-link" href="#">
+            <span id ="cartCount"class="badge my-1 text-bg-success">0</span>
+            <i class="bi bi-bag text-white"></i>
+        </a>
+    </li>
+  </li>
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item">
+        <a  class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+    </li>
+    <li class="nav-item">
+        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+        </form>
+    </li>
+}
+else
+    {
+
+    <li class="nav-item">
+        <a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    </li>
+}
+</ul>
+*@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+
+<ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/Cart/GetUserCart">
+            <span id ="cartCount"class="badge my-1 text-bg-success">0</span>
+            <i class="bi bi-bag"></i>
+        </a>
+    </li>
+    </li>
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item">
+        <a  class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!
+                Hello <span id="username">@User.Identity?.Name</span>!
+     @*   @if (User.IsInRole("Admin") )
+                {
+                    <span>Admin</span>
+                }*@
+            </a>
+    </li>
+    <li class="nav-item">
+        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+        </form>
+    </li>
+}
+else
+{
+
+       
+    <li class="nav-item">
+        <a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    </li>
+}
+</ul>

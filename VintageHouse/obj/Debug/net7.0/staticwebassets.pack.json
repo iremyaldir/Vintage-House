@@ -1,0 +1,225 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\VintageHouse.bundle.scp.css",
+      "PackagePath": "staticwebassets\\VintageHouse.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\css\\bootstrap.min (1).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (1).css"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\blackboot.jpg",
+      "PackagePath": "staticwebassets\\images\\blackboot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\blackhh.jpg",
+      "PackagePath": "staticwebassets\\images\\blackhh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\blackjacket.jpg",
+      "PackagePath": "staticwebassets\\images\\blackjacket.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\blackshoes.jpg",
+      "PackagePath": "staticwebassets\\images\\blackshoes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\blacktshirt.jpg",
+      "PackagePath": "staticwebassets\\images\\blacktshirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\bluebag.jpg",
+      "PackagePath": "staticwebassets\\images\\bluebag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\blueslipper.jpg",
+      "PackagePath": "staticwebassets\\images\\blueslipper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\brownbelt.jpg",
+      "PackagePath": "staticwebassets\\images\\brownbelt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\brownboot.jpg",
+      "PackagePath": "staticwebassets\\images\\brownboot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\browncoat.jpg",
+      "PackagePath": "staticwebassets\\images\\browncoat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\brownhh.jpg",
+      "PackagePath": "staticwebassets\\images\\brownhh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\cabinet.jpg",
+      "PackagePath": "staticwebassets\\images\\cabinet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\carpet.jpg",
+      "PackagePath": "staticwebassets\\images\\carpet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\carpet2.jpg",
+      "PackagePath": "staticwebassets\\images\\carpet2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\chair.png",
+      "PackagePath": "staticwebassets\\images\\chair.png"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\chande2.jpg",
+      "PackagePath": "staticwebassets\\images\\chande2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\chandelier.jpg",
+      "PackagePath": "staticwebassets\\images\\chandelier.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\clovernecklace.jpg",
+      "PackagePath": "staticwebassets\\images\\clovernecklace.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\colorfulbracelet.jpg",
+      "PackagePath": "staticwebassets\\images\\colorfulbracelet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\desk.jpg",
+      "PackagePath": "staticwebassets\\images\\desk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\goldenbelt.jpg",
+      "PackagePath": "staticwebassets\\images\\goldenbelt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\goldnecklaces.jpg",
+      "PackagePath": "staticwebassets\\images\\goldnecklaces.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\greendress.jpg",
+      "PackagePath": "staticwebassets\\images\\greendress.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\greenhh.jpg",
+      "PackagePath": "staticwebassets\\images\\greenhh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\iron.jpg",
+      "PackagePath": "staticwebassets\\images\\iron.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\jean.jpg",
+      "PackagePath": "staticwebassets\\images\\jean.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\jean2.jpg",
+      "PackagePath": "staticwebassets\\images\\jean2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\kidshoes.jpg",
+      "PackagePath": "staticwebassets\\images\\kidshoes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\orangecamphat.jpg",
+      "PackagePath": "staticwebassets\\images\\orangecamphat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\orangehat.jpg",
+      "PackagePath": "staticwebassets\\images\\orangehat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\phonecase.jpg",
+      "PackagePath": "staticwebassets\\images\\phonecase.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\pinkbackpack.jpg",
+      "PackagePath": "staticwebassets\\images\\pinkbackpack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\pinkcoat.jpg",
+      "PackagePath": "staticwebassets\\images\\pinkcoat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\pinkdress.jpg",
+      "PackagePath": "staticwebassets\\images\\pinkdress.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\pinkhh.jpg",
+      "PackagePath": "staticwebassets\\images\\pinkhh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\pinkslipper.jpg",
+      "PackagePath": "staticwebassets\\images\\pinkslipper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\redbag.jpg",
+      "PackagePath": "staticwebassets\\images\\redbag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\redboot.jpg",
+      "PackagePath": "staticwebassets\\images\\redboot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\redpants.jpg",
+      "PackagePath": "staticwebassets\\images\\redpants.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\redtshirt.jpg",
+      "PackagePath": "staticwebassets\\images\\redtshirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\refrigerator.jpg",
+      "PackagePath": "staticwebassets\\images\\refrigerator.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\tv.jpg",
+      "PackagePath": "staticwebassets\\images\\tv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\vacuumcleaner.jpg",
+      "PackagePath": "staticwebassets\\images\\vacuumcleaner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\washmach.jpg",
+      "PackagePath": "staticwebassets\\images\\washmach.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\whiteshoes.jpg",
+      "PackagePath": "staticwebassets\\images\\whiteshoes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\whiteskirt.jpg",
+      "PackagePath": "staticwebassets\\images\\whiteskirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\yellowbag.jpg",
+      "PackagePath": "staticwebassets\\images\\yellowbag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ubeyd\\source\\repos\\VintageHouse\\wwwroot\\images\\yellowshort.jpg",
+      "PackagePath": "staticwebassets\\images\\yellowshort.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.VintageHouse.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.VintageHouse.props",
+      "PackagePath": "build\\VintageHouse.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.VintageHouse.props",
+      "PackagePath": "buildMultiTargeting\\VintageHouse.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.VintageHouse.props",
+      "PackagePath": "buildTransitive\\VintageHouse.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

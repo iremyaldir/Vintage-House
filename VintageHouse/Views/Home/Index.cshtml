@@ -1,0 +1,80 @@
+﻿@model ProductDisplayModel
+@{
+    
+}
+<div class="my-2">
+
+        <form asp-action="Index" class="row row-cols-lg-auto g-3 align-items-center">
+
+
+      
+       
+            <div class="col-12">
+        <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+        <div class="input-group">
+        
+          <input type="text" class="form-control-primary" value="@Model.search" id="search" name="search" placeholder="Search...">
+        </div>
+      </div>
+
+ 
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">OK</button>
+        <a href"/Home/Index" class="btn btn-primary">Clean</a>
+      </div>
+    </form>
+</div>
+
+<div class="w-100 d-flex flex-wrap">
+     
+               
+    @foreach(var product in Model.Products)
+    {
+        <div class="card mx-2 my-4" style="width: 18rem;">
+            @if (string.IsNullOrEmpty(product.Image))
+            {
+                 <img src="~/images/brownbelt.jpg"  class="card-img-top" alt="...">
+            }
+            else
+            {
+                <img src="/images/@product.Image" class="card-img-top" alt="...">
+            }
+            <div class="card-body">
+                <h5 class="card-title">@product.ProductName</h5>
+                <a href="#" class="btn btn-primary">Details</a>
+                <button type="button" onclick="add(@product.Id)" class="btn btn-primary">Add your bag</button>
+            </div>
+        </div>
+    }
+
+
+</div>
+
+@section Scripts{
+    <script>
+        async function add(productId) {
+             var usernameEl = document.getElementById("username");
+        if(usernameEl==null){
+            window.location.href = "/Identity/Account/Login";
+          //var username=usernameEl.innerText;
+          //  if(username.length<1){
+          //      window.location.href="/Identity/Account/Login";
+          //  }
+        }
+            try {
+                var response = await fetch(`/Cart/AddItem?productId=${productId}`);
+                if (response.status == 200) {
+                    var result = await response.json();
+                    var cartCountEl = document.getElementById("cartCount");
+                    cartCountEl.innerHTML = result;
+                    window.location.href = "#cartCount";
+                }
+            }
+            catch (err) {
+                console.log(err);
+            }
+        }
+     
+    </script>
+    }
